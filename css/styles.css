@@ -1,8 +1,76 @@
-img {
-  width: 50px;
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url('http://themes.googleusercontent.com/static/fonts/opensans/v5/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Open Sans'), local('OpenSans'), url('http://themes.googleusercontent.com/static/fonts/opensans/v5/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+}
+@font-face {
+  font-family: dog;
+  src: url(../fonts/glyphicons-halflings-regular.woff);
+  font-weight: lighter;
+}
+@font-face {
+  font-family: dog;
+  src: url(../fonts/glyphicons-halflings-regular.woff);
+  font-weight: bold;
+}
+p {
+  font-family: Open Sans;
+  font-weight: bold;
+}
+.navbar {
+  margin: 0;
+  padding-left: 20%;
+}
+.navbar-right {
+  padding-right: 22%;
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: .9em;
+}
+.navbar .nav > li > a {
+  color:#42bcf4;
+}
+.navbar-brand {
+  font-family: cursive;
+  padding: 0;
+  color: #42bcf4;
 }
 .jumbotron {
+  text-align: center;
+  color: white;
   background-image: url(../img/hero.jpg);
   background-size: cover;
   background-position: center;
+  padding-bottom: 17%;
+  font-family: Open Sans;
 }
+.footer{
+  background-color: black;
+  padding: 0;
+}
+.alert-info {
+  padding:.5em;
+}
+h5 {
+  text-align-last: center;
+}
+.col-md-5 {
+  text-align-last: center;
+}
+.col-sm-4 {
+  border: white;
+}
+.col-md-3 {
+  padding-left: 10.0em;
+}
+/* Pls Be Gentle//
